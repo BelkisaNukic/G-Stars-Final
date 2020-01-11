@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size:14pt;
+    text-align:justify;
+    font-color:white;
+
+}
+
+
+#slika{
+  
+  background-image: url( "received_804993396341470.jpeg");
+  background-size: 1366px, 768px;
+  background-position: fixed;
+  background-repeat: no-repeat;
+
+}
+.container{
+	background-size: contain;
+}
+#about{
+	padding: 20px;
+}
+page-footer font-small bg-dark{
+	font-size: 10pt;
+}
+#opis{
+	padding: 25px;
+	margin-top: 10px;
+
+}

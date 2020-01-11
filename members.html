@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<!--
+Name: Belkisa Nukić
+Course: CS412
+Assignment: Project 2
+Due Date: /
+
+-->
+<head>
+  <title>G-Stars Gračanica</title>
+
+
+
+
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <link href= "styles.css" type="text/css" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image" href="logo.jpg">
+
+
+
+<!-- <div class="login">
+            <form action="someAction">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+      -->
+    </head>
+
+    <body>
+      <div class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+         <a class="navbar-brand" href="index.html">
+           <img src="logo3.png" alt="Logo" style="width:40px;">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="staff.html">Stručni štab</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="members.html">Članovi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ach.html">Dešavanja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Raspored treninga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontakt</a>
+            </li>
+        <!--<li class="nav-item">
+              <a class="nav-link" href="q&a.html">Upitnik</a>
+            </li>-->
+          </ul>
+        </div>
+      </nav>
+  
+</div>
+
+<div class="container">
+  <h2>Kadetkinje</h2>                                                                                      
+  <div class="table-responsive">          
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Datum rođenja</th>
+          <th>Visina</th>
+          <th>Pozicija</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Lejla</td>
+          <td>Brđanović</td>
+          <td>30.08.2004.</td>
+          <td>180</td>
+          <td>Centar</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Samra</td>
+          <td>Hasić</td>
+          <td>22.10.2004.</td>
+          <td>175</td>
+          <td>Centar</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Elvisa </td>
+          <td>Alić</td>
+          <td>03.07.2004.</td>
+          <td>168</td>
+          <td>Play</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ajla  </td>
+          <td>Hidić</td>
+          <td>06.02.2005.</td>
+          <td>170</td>
+          <td>Play</td>
+        </tr>
+      <tr>
+          <td>5</td>
+          <td>Iman </td>
+          <td>Hadžihasanović</td>
+          <td>12.04.2005.</td>
+          <td>167</td>
+          <td>Krilo</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Uma </td>
+          <td>Suman</td>
+          <td>01.02.2005.</td>
+          <td>171</td>
+          <td>Krilo</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Lejla </td>
+          <td>Karahasanović</td>
+          <td>20.05.2005.</td>
+          <td>174</td>
+          <td>Centar</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Senada </td>
+          <td>Zaketović</td>
+          <td>02.06.2005.</td>
+          <td>170</td>
+          <td>Krilo</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Ena </td>
+          <td>Selimović</td>
+          <td>19.05.2006.</td>
+          <td>165</td>
+          <td>Krilo</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Hena </td>
+          <td>Vražalica</td>
+          <td>17.06.2006.</td>
+          <td>176</td>
+          <td>Centar</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Sarah </td>
+          <td>Fazlić</td>
+          <td>30.04.2006.</td>
+          <td>174</td>
+          <td>Centar</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Emina </td>
+          <td>Topić</td>
+          <td>06.07.2006.</td>
+          <td>164</td>
+          <td>Play</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Ajna </td>
+          <td>Topić</td>
+          <td>08.12.2003.</td>
+          <td>168</td>
+          <td>Krilo</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Ajla </td>
+          <td>Džinić</td>
+          <td>14.04.2007.</td>
+          <td>164</td>
+          <td>Play</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Lamija </td>
+          <td>Hadžihasanović</td>
+          <td>06.01.2008.</td>
+          <td>158</td>
+          <td>Play</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+<footer class="page-footer font-small bg-dark">
+           <div class="container">
+            <div class="row text-center d-flex justify-content-center ">
+
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright: <strong>G-Stars</strong><br>
+              <a href="https://www.linkedin.com/in/belkisa-nuki%C4%87-365058187/">Belkisa Nukić</a>
+            </div>
+
+          </div>
+
+        </footer>
+</body>
+
+
+
+</html>
